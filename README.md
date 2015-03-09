@@ -28,7 +28,7 @@
 ##Example:
 An airplane is flying thru the air.
 Its true air speed is 86 knots, with 4 degrees angle of attack and 2 degrees side slip angle.
-its pitch is 12 degrees, roll if 35 degrees and it is headed on bearing 125 degrees.
+its pitch is 12 degrees, bank angle is 35 degrees and it is headed on bearing 125 degrees.
 what is its air speed in body and earth (inertial) coordinate system?
 
 ```javascript
