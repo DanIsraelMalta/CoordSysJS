@@ -1,19 +1,19 @@
-#CoordSys
+# CoordSys
 
-##Methods:
+## Methods:
     * coordinateSystem - create a local coordinate system relative to
                          global coordinate system (0, 0, 0)
     * toLocal          - transforms a set of points (x, y, z) from global coordinate system
                          to local coordinate system
     * toGlobal         - transforms a set of points (x, y, z) from local coordinate system
                          to global coordinate system
-##Properties:
+## Properties:
     * origin           - a 1x3 array defining coordinate system offset (X, Y, Z)
                          from global coordinate systemLanguage
     * rotation         - a 3x3 transformation (rotation) matrix defining local coordinate system
                          axes relative to global coordinate system
 
-##Notes:
+## Notes:
     * When constructing a coordinate system using unit vectors (as oppose to Euler angles),
       CoordSys tests to see if these vectors are appropriate to define roataion matrix by:
       1) checking that they are unit vectors
@@ -25,7 +25,7 @@
       twice faster then javascript builtin standard trigonometric functions.
 
 
-##Example:
+## Example:
 An airplane is flying thru the air.
 Its true air speed is 86 knots, with 4 degrees angle of attack and 2 degrees side slip angle.
 its pitch is 12 degrees, bank angle is 35 degrees and it is headed on bearing 125 degrees.
